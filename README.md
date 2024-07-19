@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Interactive Landing Page with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is an interactive landing page built with React, incorporating modern web development practices such as React Hooks, Context API, and React Router. The landing page features a responsive design with Home, About, and Contact Us sections, along with theme toggling functionality and form handling with validations.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Responsive navigation bar
+- Dynamic routing between Home, About, and Contact Us pages
+- Theme toggle (Light/Dark mode) using Context API
+- Interactive form with real-time validation
+- Use of various React Hooks (useState, useEffect, useContext)
+- Styled components and Material UI for styling
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Home
+- Welcoming message that updates based on user input
+- Engaging hero section with background image, heading, subheading, and call-to-action button
 
-### `npm test`
+### About
+- Company history, mission, team members, and values
+- Nested routes for additional sections (History, Team, Values)
+- Side-by-side image and text layout
+- Team member profiles with pictures and descriptions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Contact Us
+- User-friendly contact form with fields for name, email, and message
+- Real-time form validation
+- Display of company contact information (address, phone, email)
 
-### `npm run build`
+## Technical Implementation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### State Management
+- useState for managing form inputs and theme toggle
+- Dynamic welcome message in Home component
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Side Effects
+- useEffect for document title updates and component lifecycle management
+- Real-time animations and data updates
+- Form validation feedback
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Context
+- ThemeContext for managing and toggling between light and dark themes
+- Theme toggle button in the NavBar
 
-### `npm run eject`
+### Routing
+- React Router for navigation between sections
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation and Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
+    git clone https://github.com/AshenSachinthana/interactive-landing-page.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navigate to the project directory:
+    cd interactive-landing-page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install dependencies:
+    npm install
 
-## Learn More
+4. Start the development server:
+    npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React
+- React Router
+- Context API
+- Styled Components
+- Material UI
